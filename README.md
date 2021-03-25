@@ -6,7 +6,7 @@ Text to search and video to select - "The whole working-from-home thing — Appl
 
 There are 2 files created for this project for code maintainability and clean coding:
 1. Test file under the integration folder - youtube.spec.js 
-2. Page file under the pages folder which contains functions and element locators
+2. Page file under the pages folder which contains functions and element locators - youtube_page.js
 
 To run the test on Cypress:
 1. Make sure that your IDE example: VSCode has support for Javascript and have Cypress and nodejs installed to be able to run the test on the Cypress test runner
@@ -16,5 +16,7 @@ To run the test on Cypress:
 5. On the Cypress console click on a test to run the test
 
 Note: 
+Due to time constraint implicit assertion was used instead of explicit assertion and hard wait instead of timeout.
+
 Node_Modules folder is not included in the repository as there are too many files in it. Installing Cypress will create this folder and the files in it.
 
